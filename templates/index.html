@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Meteora Checker</h1>
+        <div class="input-group">
+            <input type="text" id="address-input" placeholder="адрес">
+            <button id="check-button">Проверить</button>
+        </div>
+        <div id="message-box"></div>
+    </div>
+</body>
+</html>
